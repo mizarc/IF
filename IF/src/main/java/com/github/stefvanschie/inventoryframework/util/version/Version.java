@@ -257,43 +257,6 @@ public enum Version {
         String version = Bukkit.getBukkitVersion().split("-")[0];
 
         switch (version) {
-            case "1.16.1":
-                return V1_16_1;
-            case "1.16.2":
-            case "1.16.3":
-                return V1_16_2_3;
-            case "1.16.4":
-            case "1.16.5":
-                return V1_16_4_5;
-            case "1.17":
-                return V1_17_0;
-            case "1.17.1":
-                return V1_17_1;
-            case "1.18":
-                return V1_18_0;
-            case "1.18.1":
-                return V1_18_1;
-            case "1.18.2":
-                return V1_18_2;
-            case "1.19":
-                return V1_19_0;
-            case "1.19.1":
-                return V1_19_1;
-            case "1.19.2":
-                return V1_19_2;
-            case "1.19.3":
-                return V1_19_3;
-            case "1.19.4":
-                return V1_19_4;
-            case "1.20":
-                return V1_20_0;
-            case "1.20.1":
-                return V1_20_1;
-            case "1.20.2":
-                return V1_20_2;
-            case "1.20.3":
-            case "1.20.4":
-                return V1_20_3_4;
             case "1.20.5":
                 return V1_20_5;
             case "1.20.6":
