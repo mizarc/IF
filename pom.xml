@@ -28,8 +28,8 @@
         <adventure.version>4.18.0</adventure.version>
     </properties>
 
-    <groupId>com.github.stefvanschie.inventoryframework</groupId>
-    <artifactId>IF-parent</artifactId>
+    <groupId>dev.mizarc.inventoryframework</groupId>
+    <artifactId>if-parent</artifactId>
     <version>0.10.19</version>
     <packaging>pom</packaging>
 
@@ -66,13 +66,10 @@
     </dependencies>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>github</id>
+            <name>GitHub Mizarc Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/mizarc/IF</url>
         </repository>
     </distributionManagement>
 
@@ -98,6 +95,22 @@
                 </plugins>
             </build>
         </profile>
+        <profile>
+            <id>github</id>
+            <repositories>
+                <repository>
+                    <id>central</id>
+                    <url>https://repo1.maven.org/maven2</url>
+                </repository>
+                <repository>
+                    <id>github</id>
+                    <url>https://maven.pkg.github.com/Mizarc/IF</url>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+        </profile>
     </profiles>
 
     <build>
@@ -118,17 +131,6 @@
                         <version>5.11.4</version>
                     </dependency>
                 </dependencies>
-            </plugin>
-            <plugin>
-                <groupId>org.sonatype.plugins</groupId>
-                <artifactId>nexus-staging-maven-plugin</artifactId>
-                <version>1.7.0</version>
-                <extensions>true</extensions>
-                <configuration>
-                    <serverId>ossrh</serverId>
-                    <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
-                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
