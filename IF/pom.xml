@@ -36,67 +36,67 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.stefvanschie.inventoryframework</groupId>
+            <groupId>dev.mizarc.inventoryframework</groupId>
             <artifactId>abstraction</artifactId>
             <version>${project.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.stefvanschie.inventoryframework</groupId>
+            <groupId>dev.mizarc.inventoryframework</groupId>
             <artifactId>1_20_5</artifactId>
             <version>${project.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.stefvanschie.inventoryframework</groupId>
+            <groupId>dev.mizarc.inventoryframework</groupId>
             <artifactId>1_20_6</artifactId>
             <version>${project.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.stefvanschie.inventoryframework</groupId>
+            <groupId>dev.mizarc.inventoryframework</groupId>
             <artifactId>1_21_0</artifactId>
             <version>${project.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.stefvanschie.inventoryframework</groupId>
+            <groupId>dev.mizarc.inventoryframework</groupId>
             <artifactId>1_21_1</artifactId>
             <version>${project.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.stefvanschie.inventoryframework</groupId>
+            <groupId>dev.mizarc.inventoryframework</groupId>
             <artifactId>1_21_2-3</artifactId>
             <version>${project.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.stefvanschie.inventoryframework</groupId>
+            <groupId>dev.mizarc.inventoryframework</groupId>
             <artifactId>1_21_4</artifactId>
             <version>${project.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.stefvanschie.inventoryframework</groupId>
+            <groupId>dev.mizarc.inventoryframework</groupId>
             <artifactId>1_21_5</artifactId>
             <version>${project.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.stefvanschie.inventoryframework</groupId>
+            <groupId>dev.mizarc.inventoryframework</groupId>
             <artifactId>iv-abstraction</artifactId>
             <version>${project.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.stefvanschie.inventoryframework</groupId>
+            <groupId>dev.mizarc.inventoryframework</groupId>
             <artifactId>iv-abstract-class</artifactId>
             <version>${project.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.stefvanschie.inventoryframework</groupId>
+            <groupId>dev.mizarc.inventoryframework</groupId>
             <artifactId>iv-interface</artifactId>
             <version>${project.version}</version>
             <scope>compile</scope>
