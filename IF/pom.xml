@@ -57,13 +57,13 @@
         </dependency>
         <dependency>
             <groupId>com.github.stefvanschie.inventoryframework</groupId>
-            <artifactId>1_21_0</artifactId>
+            <artifactId>1_21_0-1</artifactId>
             <version>${project.version}</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.github.stefvanschie.inventoryframework</groupId>
-            <artifactId>1_21_1</artifactId>
+            <artifactId>1_21_0-1</artifactId>
             <version>${project.version}</version>
             <scope>compile</scope>
         </dependency>
@@ -93,7 +93,7 @@
         </dependency>
         <dependency>
             <groupId>com.github.stefvanschie.inventoryframework</groupId>
-            <artifactId>1_21_9</artifactId>
+            <artifactId>1_21_9-10</artifactId>
             <version>${project.version}</version>
             <scope>compile</scope>
         </dependency>

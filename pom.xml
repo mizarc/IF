@@ -7,13 +7,12 @@
     <modules>
         <module>IF</module>
         <module>nms/abstraction</module>
-        <module>nms/1_21_9</module>
+        <module>nms/1_21_9-10</module>
         <module>nms/1_21_6-8</module>
         <module>nms/1_21_5</module>
         <module>nms/1_21_4</module>
         <module>nms/1_21_2-3</module>
-        <module>nms/1_21_1</module>
-        <module>nms/1_21_0</module>
+        <module>nms/1_21_0-1</module>
         <module>adventure-support</module>
         <module>inventory-view/iv-abstract-class</module>
         <module>inventory-view/iv-abstraction</module>
